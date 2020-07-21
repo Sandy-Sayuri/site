@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html >
+<head>
+<meta charset="UTF-8">
+<title>login </title>
+<link rel="stylesheet" href="menu.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+ 
+ <!-- como fazer isso valer apanas para o formulario-->
+</head>
+<body>
+<p><img src="energia 3.jpg" alt="energia" style=  "width:1354px;height:400px"> 
+<nav style="font-size:25px;">
+	<ul>
+	 <li><a href="home.html">home</a></li>
+		<li><a href="renovavel.html">renováveis</a>
+			<ul>
+				<li><a href="renovavel.html#ee"> eólica </a></li>
+				<li><a href="renovavel.html#es"> solar</a></li>
+				<li><a href="renovavel.html#eb">biomassa</a>
+				</li>
+			</ul>
+		</li>
+		<li><a href="recursos_nao_renovaveis.html">não renováveis</a>
+			<ul>
+				<li><a href="recursos_nao_renovaveis.html#et">termoelétrica </a></li>
+				<li><a href="recursos_nao_renovaveis.html#en">núclear</a></li>
+				<li><a href="recursos_nao_renovaveis.html#eh">hidrelétrica</a></li>
+			</ul>
+		</li>
+		<li><a href="comparação entre as energias.html">comparação entre as energias</a>
+		<ul>
+		    <li><a href="#ver">vantagens das  renovaveis</a></li>
+			<li><a href="#der">desvantagens das  renovaveis</a></li>
+				<li><a href="#venr">vantagens das  não renovaveis</a></li>
+				<li><a href="#denr">desvatagens das  não renovaveis</a></li>
+		</ul>
+		    </li>
+				<li><a href="conciderações finais.html"style="background-color:#4CAF50">perguntas</a></li>
+				  <li><a href="referencias.html">referencias</a></li>
+		         <li><a href="aplicativo.html">aplicativo</a></li>
+	</ul>
+</nav>
+<div class="container">
+<h1 style="margin-left:80px;margin-right:80px"> Precisa de ajuda? Então fassa sua perguntas aqui<h1>
+  <fieldset id="impresa"style="border:1px solid green;margin-left:80px;margin-right:80px"><legend> perguntas</legend>
+  <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input style="border:1px solid black;"type="email" class="form-control" id="email" placeholder="Enter email" name="email" maxlength="30">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Nome:</label>
+      <input style="border:1px solid black" type="text" class="form-control" id="nome" placeholder="Enter nome" name="pwd"maxlength="30">
+    </div>
+	<div class="pergunta">
+	<b><p>Pergunta:</p></b>
+	  <textarea style="border:1px solid black"name="message" rows="10"cols="50">
+	  </textarea>
+	  <br>
+	  </form>
+    <button type="submit" class="btn btn-defaultstyle"style="border:1px solid black;cursor:pointer;transition.3s ease all;cursor:poider "class="btn-abrir-popup"id="btn-abrir-popup"><big><b>Enviar</b></button></big>
+	</div>
+	   <div class="overlay" id="overlay ">
+	       <div class="popup" id="popup">
+		   <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+		  <h3>pergunta enviada com susesso!</h3>
+	       </div>
+	   </div>
+  </div>
+  <script href="ajuda.js"></script>
+</fieldset>  
+	</body>
+</html>
