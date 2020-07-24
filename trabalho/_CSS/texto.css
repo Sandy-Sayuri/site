@@ -6,7 +6,7 @@ div{
     margin-left:5px;
     margin-right:5px
 }
-p.titulos{
+h1.titulos{
     font-size:40px;
     font: bold;
     background-color: rgba(111, 219, 111, 0.979);
@@ -15,10 +15,10 @@ p.titulos{
   
     
 }
-p.sudtitulo{
+h2.sudtitulo{
     font-size:30px;
     font: bold;
-    color: rgb(1, 56, 1);
+    color: rgb(0, 77, 0);
 }
 p{
     text-indent: 50px;
