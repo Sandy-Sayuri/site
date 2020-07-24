@@ -2,3 +2,17 @@ hgroup{
     text-align: left;
     padding: 30px;
 }
+div{
+    margin-left:80px;
+    margin-right:80px
+}
+p#er{
+    font-size:40px;
+    font: bold;
+    background-color: rgba(111, 219, 111, 0.979);
+    color: rgb(1, 73, 1);
+    margin-left: auto;
+}
+p{
+    font-size:20px;
+}
