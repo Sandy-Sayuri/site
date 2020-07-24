@@ -6,13 +6,20 @@ div{
     margin-left:80px;
     margin-right:80px
 }
-p#er{
+p.titulos{
     font-size:40px;
     font: bold;
     background-color: rgba(111, 219, 111, 0.979);
     color: rgb(1, 73, 1);
-    margin-left: auto;
+    padding: 10px;
+    margin: 2px;
+    
+}
+p.sudtitulo{
+    font-size:30px;
+    font: bold;
 }
 p{
+    text-indent: 50px;
     font-size:20px;
 }
