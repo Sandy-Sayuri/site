@@ -1,15 +1,18 @@
+@charset "UTF-8";
 html, body{
-	height: 100%;
+	height: 100%
 }
 #body, div, h1, h2, h3, h4, h5, h6,ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote, nav {
-	margin: 0px;
+	 margin: 0px;
 	 padding: 0px;
 	 border: 0px;	
 }
-	
+/*base do progama*/	
 nav ul ul {
     display: none;
-	margin: 0px; padding: 0px; border: 0px;	
+	margin: 0px; 
+	padding: 0px; 
+	border: 0px;	
 }
 nav ul li:hover > ul {
     display: block;
@@ -18,9 +21,11 @@ nav {
     margin: auto;
     text-align: center;
 	font-size: 101%;
-	margin: 0px; padding: 0px; border: 0px;	
+	margin: 0px;
+	padding: 0px;
+	border: 0px;	
 }
-nav ul {
+nav ul {/*base do menu*/
 	background: #34d334; 
 	background: linear-gradient(top, #5cd15c 50%,#32CD32 50%);  
 	background: -moz-linear-gradient(top,#5cd15c 50%,#32CD32 50%); 
@@ -31,11 +36,15 @@ nav ul {
 	list-style:none;
 	position: relative;
 	display: flexbox;
-	margin: 0px; padding: 0px; border: 10px;
+	margin: 0px; 
+	padding: 0px; 
+	border: 50%;
 
 	}
 	nav ul:after {
-		content: ""; clear:left; display: block;
+		content: "";
+		clear:left; 
+		display: block;
 	}
 
 nav ul li {
@@ -43,17 +52,22 @@ nav ul li {
 	}
 		nav ul li:hover {
 			background: #25a825;
-			background: linear-gradient(top, #5ec45e 0%, #25a825 40%);
-			background: -moz-linear-gradient(top, #5ec45e 0%, #25a825 40%);
-			background: -webkit-linear-gradient(top, #5ec45e 0%,#25a825 40%);
+			background: linear-gradient(top, #5ec45e 0%, #25a825 50%);
+			background: -moz-linear-gradient(top, #5ec45e 0%, #25a825 50%);
+			background: -webkit-linear-gradient(top, #5ec45e 0%,#25a825 50%);
 		}
 			nav ul li:hover a {
 				color: #FFFFFF;
+				
 			}
 		
 		nav ul li a {
-			display: block; padding: 15px 10px;
-			color: #FFFFFF; text-decoration: none;
+			display: block; 
+			padding: 15px 5px;
+			margin: auto;
+			color: #FFFFFF; 
+			text-decoration: none;
+			font-size: large;
 		}
 
 nav ul ul {
