@@ -30,11 +30,11 @@ a{
     color: green;
     text-align: left;
 }
-div.direita{
-    text-align: left;
+footer{
+    clear: both;
+    border-top: 1px solid black;
+    text-align: center;
+    background-color:rgb(94, 204, 94);
+    color: white;
+}
 
-}
-div.esquerda{
-    text-align: right;
-    top: -30px;
-}
