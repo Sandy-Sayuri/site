@@ -1,3 +1,3 @@
-function onclick(){
+function email(){
 	alert('mensagem eviada')
 }
