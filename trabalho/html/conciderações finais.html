@@ -42,25 +42,28 @@
 </nav>
 <img id="logo"src="../_imagem/energia 3.jpg" alt="energia">
 </div>
-<div class="container">
-<h1 style="margin-left:80px;margin-right:80px"> Precisa de ajuda? Então fassa sua perguntas aqui<h1>
-  <fieldset id="impresa"style="border:1px solid green;margin-left:80px;margin-right:80px"><legend> perguntas</legend>
-  <form action="/action_page.php">
+<div>
+<h2 class="sudtitulo"> 
+	Precisa de ajuda? Então fassa sua perguntas aqui
+	<h2>
+  <fieldset id="impresa">
+	  <legend> Perguntas</legend>
     <div class="form-group">
       <label for="email">Email:</label>
-      <input style="border:1px solid black;"type="email" class="form-control" id="email" placeholder="Enter email" name="email" maxlength="30">
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" maxlength="30">
     </div>
     <div class="form-group">
       <label for="pwd">Nome:</label>
-      <input style="border:1px solid black" type="text" class="form-control" id="nome" placeholder="Enter nome" name="pwd"maxlength="30">
+      <input type="text" class="form-control" id="nome" placeholder="Enter nome" name="pwd"maxlength="30">
     </div>
-	<div class="pergunta">
-	<b><p>Pergunta:</p></b>
+	
+	<p class="pergunta"><b>Pergunta:</b></p>
+	 <div>
 	  <textarea style="border:1px solid black"name="message" rows="10"cols="50">
 	  </textarea>
 	  <br>
 	  </form>
-    <button type="submit" class="btn btn-defaultstyle"style="border:1px solid black;cursor:pointer;transition.3s ease all;cursor:poider "class="btn-abrir-popup"id="btn-abrir-popup"><big><b>Enviar</b></button></big>
+    <button type="submit" class="btn btn-defaultstyle"id="btn-abrir-popup"><b>Enviar</b></button>
 	</div>
 	   <div class="overlay" id="overlay ">
 	       <div class="popup" id="popup">
@@ -69,7 +72,7 @@
 	       </div>
 	   </div>
   </div>
-  <script href="ajuda.js"></script>
+  <script href="../_js/ajuda.js"></script>
 </fieldset>  
 	</body>
 </html>

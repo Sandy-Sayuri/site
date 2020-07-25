@@ -37,4 +37,17 @@ footer{
     background-color:rgb(94, 204, 94);
     color: white;
 }
-
+a.redes_sociais {
+    color: white;
+} 
+fieldset{
+    border:1px solid green;
+    margin-left:80px;
+    margin-right:80px;
+}
+input{
+    border:1px solid black;
+}
+p.pergunta{
+    text-align: left;
+}
