@@ -30,3 +30,11 @@ a{
     color: green;
     text-align: left;
 }
+div.direita{
+    text-align: left;
+
+}
+div.esquerda{
+    text-align: right;
+    top: -30px;
+}
